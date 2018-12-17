@@ -4,11 +4,11 @@
   "description": "\"It is second day of node\"",
   "main": "server.js",
   "scripts": {
-    "start":"node server.js",
+    "start": "node server.js",
     "heroku-postbuild": "cd client && yarn && yarn run build"
   },
   "engines": {
-    "node":"10.12.0"
+    "node": "10.12.0"
   },
   "author": "",
   "license": "ISC",

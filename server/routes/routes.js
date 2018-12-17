@@ -1,20 +1,20 @@
 const express = require ('express');
 const {
-  showStudents,
-  showSingleStudent,
-  addStudent,
-  editStudent,
-  deleteStudent,
-} = require ('../controllers/students.controller');
-const studentRouter = express.Router ();
+  showPresentations,
+  showSinglePresentation,
+  addPresentation,
+  editPresentation,
+  deletePresentation,
+} = require ('../controllers/presentations.controller');
+const presentationRouter = express.Router ();
 
-studentRouter.get('/',(req, res) => res.send('Check /students route if there student.'))
-studentRouter.get ('/students', showStudents);
-studentRouter.get('/students/:id',showSingleStudent);
-studentRouter.post('/students', addStudent);
-studentRouter.put('/students/:id', editStudent);
-studentRouter.delete('/students/:id', deleteStudent);
+presentationRouter.get('/',(req, res) => res.send('Check /presentations route if there presentation.'))
+presentationRouter.get ('/presentations', showPresentations);
+presentationRouter.get('/presentations/:id',showSinglePresentation);
+presentationRouter.post('/presentations', addPresentation);
+presentationRouter.put('/presentations/:id', editPresentation);
+presentationRouter.delete('/presentations/:id', deletePresentation);
 
 
-module.exports = studentRouter;
+module.exports = presentationRouter;
 
