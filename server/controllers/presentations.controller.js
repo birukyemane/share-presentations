@@ -34,13 +34,14 @@ function showSinglePresentation (req, res) {
 
 function addPresentation (req, res) {
   const newPresentation = new Presentation (req.body);
+  console.log(req.body)
   newPresentation
-    .save ()
+    .save (5)
     .then (() => {
-      console.log ('Data is saved');
+      console.log ('Data is saved');      
     })
     .catch (err => console.log ('Error', err));
-  res.send ('A new presentation has been added');
+  res.send (req.body);
 }
 
 function editPresentation (req, res) {
