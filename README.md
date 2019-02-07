@@ -12,3 +12,7 @@
 
   * Express
   * MongoDB
+
+# usage 
+
+* clone it and install packages
