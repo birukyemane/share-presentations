@@ -4,7 +4,7 @@
 
 # Features
 
-    * users can add, edit , delete and view  
+    * Users can add, edit , delete and view  
     * Authentication, authorization
     * Validation
 
