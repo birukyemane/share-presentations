@@ -5,5 +5,10 @@
 # Features
 
     * users can add, edit , delete and view  
+    * Authentication, authorization
+    * Validation
 
 # Technologies 
+
+  * Express
+  * MongoDB
