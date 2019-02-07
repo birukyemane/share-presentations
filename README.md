@@ -18,3 +18,4 @@
 * clone it and install packages
 * you also need to clone and install the client Share presentations client
 * It will be hosted on Heroku after completion
+* the client folder is part of the boiler plage. it will be removed, igone it. 
