@@ -13,7 +13,8 @@
   * Express
   * MongoDB
 
-# usage 
+# Usage 
 
 * clone it and install packages
+* you also need to clone and install the client Share presentations client
 * It will be hosted on Heroku after completion
